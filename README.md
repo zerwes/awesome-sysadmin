@@ -357,6 +357,7 @@ _See also: [IT Asset Management]([Ralph](#it-asset-management))_
 
 *DNS server control panels.*
 
+- [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) - Free and open source, userfriendly ads & trackers blocking DNS server.
 - [Atomia DNS](http://atomiadns.com/) - DNS management system.
 - [nsedit](https://github.com/tuxis-ie/nsedit) - nsedit is a DNS editor for PowerDNS, working with PowerDNS's new API.
 - [PDNS Gui](https://github.com/odoucet/pdns-gui) - WebGUI which aids in administering domains and records for PowerDNS with MySQL.
