@@ -285,6 +285,8 @@ _See also: [IT Asset Management]([Ralph](#it-asset-management))_
 
 **Please visit [dbdb.io - Database of Databases](https://dbdb.io/)**
 
+_See also: [awesome-selfhosted/Database Management](https://github.com/awesome-selfhosted/awesome-selfhosted#database-management)_
+
 
 ### Deployment Automation
 
@@ -464,16 +466,11 @@ _See also: [IT Asset Management]([Ralph](#it-asset-management))_
 
 *Log management tools: collect, parse, visualize ...*
 
-- [Elasticsearch](https://www.elastic.co/) - A Lucene Based Document store mainly used for log indexing, storage and analysis.
-- [Fluentd](http://www.fluentd.org/) - Log Collector and Shipper.
-- [Flume](https://flume.apache.org/) - Distributed log collection and aggregation system.
-- [GoAccess](http://goaccess.io/) - Real-time web log analyzer and interactive viewer that runs in a terminal or through the browser. ([Source Code](https://github.com/allinurl/goaccess)) `MIT` `C`
-- [Graylog](https://www.graylog.org/) - Pluggable Log and Event Analysis Server with Alerting options.
-- [Hindsight](http://mozilla-services.github.io/hindsight/) - Stream processing system which may be used for log aggregation (Replaces Heka).
-- [Kibana](https://www.elastic.co/products/kibana) - Visualize logs and time-stamped data.
-- [Logstash](https://www.elastic.co/products/logstash) - Tool for managing events and logs.
-- [Loki](https://grafana.com/oss/loki/) - horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
-- [Octopussy](http://www.octopussy.pm) - Log Management Solution (Visualize / Alert / Report).
+- [Fluentd](https://www.fluentd.org/) - Data collector for unified logging layer. ([Source Code](https://github.com/fluent/fluentd)) `Apache-2.0` `Ruby`
+- [Flume](https://flume.apache.org/) - distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data. ([Source Code](https://github.com/apache/flume)) `Apache-2.0` `Java`
+- [GoAccess](https://goaccess.io/) - Real-time web log analyzer and interactive viewer that runs in a terminal or through the browser. ([Source Code](https://github.com/allinurl/goaccess)) `MIT` `C`
+- [Loki](https://grafana.com/oss/loki/) - Log aggregation system designed to store and query logs from all your applications and infrastructure. ([Source Code](https://github.com/grafana/loki)) `AGPL-3.0` `Go`
+- [rsyslog](https://www.rsyslog.com/) - Rocket-fast system for log processing. ([Source Code](https://github.com/rsyslog/rsyslog)) `GPL-3.0` `C`
 
 
 ### Mail Clients
@@ -745,22 +742,17 @@ _See also: [IT Asset Management]([Ralph](#it-asset-management))_
 
 **[`^        back to top        ^`](#awesome-sysadmin)**
 
-*Web servers.*
+[Web servers](https://en.wikipedia.org/wiki/Web_server) and [reverse proxies](https://en.wikipedia.org/wiki/Reverse_proxy).
 
-- [Algernon](http://algernon.roboticoverlords.org/) - Web/application server that supports Lua, live-reload, templates, Sass and HTTP/2.
-- [Apache](http://httpd.apache.org/) - A robust, commercial-grade, featureful implementation of an HTTP (Web) server.
-- [Caddy](https://caddyserver.com/) - Lightweight, general-purpose web server supporting HTTP/2, automatic TLS and easy configuration. Written in Go.
-- [Cherokee](http://cherokee-project.com/) - Lightweight, high-performance web server/reverse proxy.
-- [Hiawatha](https://www.hiawatha-webserver.org/) - Prioritises security, simplicity and performance.
-- [Lighttpd](http://www.lighttpd.net/) - Web server more optimized for speed-critical environments.
-- [Nginx](http://nginx.org/) - Reverse proxy, load balancer, HTTP cache, and web server.
-- [uWSGI](https://github.com/unbit/uwsgi/) - The uWSGI project aims at developing a full stack for building hosting services.
-
-*Web Performance.*
-
-- [HAProxy](http://www.haproxy.org/) - Software based load Balancing, SSL offloading and performance optimization, compression, and general web routing.
-- [Traefik](https://traefik.io/) - Traefik is a leading modern reverse proxy and load balancer.
-- [Varnish](https://www.varnish-cache.org/) - HTTP based web application accelerator focusing on optimizing caching and compression.
+- [Algernon](https://algernon.roboticoverlords.org/) - Small self-contained pure-Go web server with Lua, Markdown, HTTP/2, QUIC, Redis and PostgreSQL support. ([Source Code](https://github.com/xyproto/algernon)) `BSD-3-Clause` `Go`
+- [Apache HTTP Server](https://httpd.apache.org/) - Secure, efficient and extensible server that provides HTTP services in sync with the current HTTP standards. ([Source Code](https://svn.apache.org/viewvc/httpd/httpd/branches/2.4.x/)) `Apache-2.0` `C`
+- [Caddy](https://caddyserver.com/) - Powerful, enterprise-ready, open source web server with automatic HTTPS. ([Source Code](https://github.com/caddyserver/caddy)) `Apache-2.0` `Go`
+- [HAProxy](https://www.haproxy.org/) - Very fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP and HTTP-based applications. ([Source Code](https://git.haproxy.org/?p=haproxy.git;a=tree)) `GPL-2.0` `C`
+- [Hiawatha](https://www.hiawatha-webserver.org/) - An advanced and secure webserver for Unix. ([Source Code](https://gitlab.com/hsleisink/hiawatha)) `GPL-2.0` `C`
+- [Lighttpd](https://www.lighttpd.net/) - Secure, fast, compliant, and very flexible web server that has been optimized for high-performance environments. ([Source Code](https://git.lighttpd.net/lighttpd/lighttpd1.4)) `BSD-3-Clause` `C`
+- [Nginx](https://nginx.org/en/) - HTTP and reverse proxy server, mail proxy server, and generic TCP/UDP proxy server. ([Source Code](https://hg.nginx.org/nginx/file/tip)) `BSD-2-Clause` `C`
+- [Traefik](https://traefik.io/) - HTTP reverse proxy and load balancer that makes deploying microservices easy. ([Source Code](https://github.com/traefik/traefik)) `MIT` `C/Docker`
+- [Varnish](https://varnish-cache.org/) - Web application accelerator/caching HTTP reverse proxy. ([Source Code](https://github.com/varnishcache/varnish-cache)) `BSD-2-Clause` `C`
 
 -------------------
 
@@ -779,25 +771,7 @@ _See also: [IT Asset Management]([Ralph](#it-asset-management))_
 
 ## External links
 
-Various resources, such as books, websites and articles, for improving your skills and knowledge.
-
-## Blogs
-
-- [Code as Craft](https://codeascraft.com/) - Etsy's Ops blog, lots of technical posts.
-- [DevOpsGuys](http://blog.devopsguys.com/) - Devops consultants who blog about operations.
-- [Rackspace Developers](https://developer.rackspace.com/blog/) - Slightly biased blog with lots of Devops Topics.
-- [RoseHosting Blog](https://www.rosehosting.com/blog/) - Linux tutorials for installing and configuring various software through the Linux command line. Guides and introductions to different Linux technologies and applications. Tips and tricks you can do via the Linux command line and more.
-
-## Books
-
-*Sysadmin related books.*
-
-- [The Linux Command Line](http://linuxcommand.org/tlcl.php) - A book about the Linux command line by William Shotts.
-
-
 ## Communities / Forums
-
-*For the social people.*
 
 - [ArsTechnica OpenForum](http://arstechnica.com/civis/) – IT Forum which is attached to a large news site.
 - [Reddit](https://www.reddit.com) - Really, really large bulletin board system.
@@ -807,13 +781,6 @@ Various resources, such as books, websites and articles, for improving your skil
 - [Spiceworks Community](https://community.spiceworks.com/start) – General enterprise IT news and small articles.
 - [StackExchange Network](https://stackexchange.com/sites#technology) – Q&A communities.
   - [Server Fault](https://serverfault.com/) – StackExchange community for system and network administrators.
-
-
-## Newsletters
-
-- [Servers for Hackers](https://serversforhackers.com/) - Newsletter for programmers who find themselves needing to know their way around a server.
-- [Web Operations Weekly](http://webopsweekly.com/) - A weekly newsletter on Web operations, infrastructure, performance, and tooling, from the browser down to the metal.
-
 
 ## Repositories
 
@@ -827,10 +794,7 @@ Various resources, such as books, websites and articles, for improving your skil
 - [Remi](http://rpms.famillecollet.com/) - Repository with LAMP updated packages for RHEL/Centos/Fedora.
 - [Software Collections](https://www.softwarecollections.org) - Community Release of [Red Hat Software Collections](https://access.redhat.com/documentation/en/red-hat-software-collections/). Provides updated packages of Ruby, Python, etc. for CentOS/Scientific Linux 6.x.
 
-
 ## Websites
-
-*Useful sysadmin related websites.*
 
 - [ArchWiki](https://wiki.archlinux.org/) – Arch Linux Wiki which has really nice written articles valid for other distros.
 - [Gentoo Wiki](https://wiki.gentoo.org/) - Gentoo Linux Wiki with a lot in-detail description of Linux components.
